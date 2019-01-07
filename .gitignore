@@ -1,0 +1,6 @@
+__pycache__/
+crawls/
+*.json
+*.log
+*.bak
+data/
