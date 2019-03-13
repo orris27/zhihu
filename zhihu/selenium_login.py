@@ -21,7 +21,7 @@ def login(url):
     browser.find_element_by_css_selector(".SignContainer-switch span").click()
     browser.find_element_by_css_selector(".Login-qrcode button").click()
 
-    print("请在30s内扫二维码，我们将为您保存cookies")
+    print("请在30s内扫二维码，我们将为您保存cookies。（请不要关闭浏览器或者该程序）")
     time.sleep(30)
     cookies = browser.get_cookies()
     browser.close()
